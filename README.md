@@ -6,3 +6,7 @@ npm install
 ```
 npm run test
 ```
+# Coverage
+```
+npm run coverage
+```
