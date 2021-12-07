@@ -2,4 +2,3 @@ node_modules/
 coverage/
 mochawesome-report/
 .nyc_output
-.eslintrc.json
