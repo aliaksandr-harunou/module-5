@@ -13,23 +13,23 @@ describe(`positive tests for addition`, () => {
     calc = null;
   });
 
-  it(`should return summ of positive integer numbers`, () => {
+  it(`should return sum of positive integer numbers`, () => {
     expect(calc.add(4, 3, 6)).to.be.equal(13);
   });
 
-  it(`should return summ of negative integer numbers`, () => {
+  it(`should return sum of negative integer numbers`, () => {
     expect(calc.add(-5, -5, -10, -100)).to.be.equal(-120);
   });
 
-  it(`should return summ of positive decimal numbers`, () => {
+  it(`should return sum of positive decimal numbers`, () => {
     expect(calc.add(5.2, 5.5, 10.00, 11.1111)).to.be.equal(31.8111);
   });
 
-  it(`should return summ of negative decimal numbers`, () => {
+  it(`should return sum of negative decimal numbers`, () => {
     expect(calc.add(-50.2, -51.5, -0.11)).to.be.equal(-101.81);
   });
 
-  it(`should return summ of negative and positive numbers`, () => {
+  it(`should return sum of negative and positive numbers`, () => {
     expect(calc.add(-50.2, -51.5, 50.2, 100.5, 2000, 0, 0.000))
         .to.be.equal(2049.000);
   });
